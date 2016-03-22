@@ -1,10 +1,11 @@
 import { Component } from 'angular2/core';
 import {KegListComponent} from './keg-list.component';
 import {Keg} from './keg.model';
+import {NewKegComponent} from './new-keg.component';
 
 @Component({
   selector: 'my-app',
-  directives: [KegListComponent],
+  directives: [KegListComponent, NewKegComponent],
   template: `
     <div class="jumbotron">
       <h1>Tap Room Management</h1>
